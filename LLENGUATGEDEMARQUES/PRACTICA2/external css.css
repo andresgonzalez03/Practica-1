@@ -1,0 +1,16 @@
+table, th, td { 
+    border:1px solid rgb(0, 0, 0);                          /* a�ade un borde negro alrededor de la tabla y alrededor de cada una de las celdas */
+    background-color: rgb(211, 186, 247);                   /* a�ade en el fondo de las celdas de la tabla un color*/
+    text-align: center;                                       /* alinea el texto al centro */
+    font-weight: bold;                                        
+    color:white                                             /* coloca en blanco las letras que aparecen tanto en la tabla como en las celdas */ 
+  }
+  h1 {
+      color:rgba(168, 9, 248, 0.9);                         /* a�ade color al encabezado h1 */
+      font-weight:bold;                                       /* coloca en negrita el texto */
+      text-align: center;                                     /* alinea el texto al centro */
+  }
+caption {
+        color:blue                                          /* coloca el color del t�tulo de la tabla en azul */
+
+  }
