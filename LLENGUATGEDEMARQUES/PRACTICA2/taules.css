@@ -7,8 +7,8 @@ table, th, td {
   }
   h1 {
       color:rgba(168, 9, 248, 0.9); /* añade color al encabezado h1 */
-      font-weight:bold; /* coloca en negrita el texto */
-      text-align: center; /* alinea el texto al centro */
+      font-weight:bold; 
+      text-align: center; 
   }
 caption {
         color:blue /* coloca el color del título de la tabla en azul */
