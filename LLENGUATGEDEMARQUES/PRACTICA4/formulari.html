@@ -1,0 +1,83 @@
+<!-- exercici fet per Aitor Montejo i Andrés González-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- Indica la codificació de caràcters utilitzada -->
+    <title>Formulari</title> <!-- Escriu el títol de la pàgina web-->
+    <link rel="stylesheet" href="style.css"> <!-- Enllaça a l'arxiu style.css que es troba en local-->
+</head>
+
+<body>
+    <img src="https://soccerinteraction.academy/sites/default/files/styles/img_post_grande/public/2021-06/Campus%20Verano%20Alto%20Rendimiento.jpg?itok=Fllt285Y"
+        alt="Campament de futbol">
+    <form method="POST" action="formulari_enviat.html">
+        <h1>Inscriu-te al campament de futbol!</h1> <!--Escriu un titol per el document-->
+        <p id="titols">Dona'ns la teva informació per registrar-te</registrar-te></p>
+        <!--Serveix per crear un paragraf-->
+        <table> <!--Crea una taula per poder fer que totes les entrades comencin a la mateixa posició-->
+            <tr>
+                <td><label for="formName">Nom i Cognom</label></li>
+                    <!--Escriu un text que va relacionat amb l'input, for serveix per realcionar tots els elements amb el mateix nom-->
+                <td><input id="formName" class="formulariNom" type="text" required></li>
+                    <!--Crea una entrada de text, id relaciona tots els elements amb el mateix id-->
+            </tr>
+
+            <div>
+                <tr>
+                    <td><label for="formMail">Correu</label></td>
+                    <td><input id="formMail" class="formulariEmail" type="email" required></td>
+                    <!--Crea una entrada de text per emails-->
+                </tr>
+            </div>
+
+            <tr>
+                <td><label for="formNumber">Edad</label></td>
+                <td><input id="formNumber" type="number" required></td>
+                <!--Crea una entrada numerica-->
+            </tr>
+        </table><br> <!--Afegeix un espai-->
+        <p id="titols">Escull la teva posició i sexe</p>
+        <select> <!--Crea una entarada desplegables amb diferents opcions-->
+            <option>Lliure</option> <!--Escrivim el nom que li volem donar a cada opcio-->
+            <option>Porter</option>
+            <option>Defensa</option>
+            <option>Migcampista</option>
+            <option>Davanter</option>
+
+        </select>
+        <br>
+        <div> <!--Serveix per crea una nova seccio--> <br>
+            <input id="formDropdown" type="radio" name="Genera">
+            <!--Crea un boto de seleccio, name vincula diferents botons per no permetre que es seleccionin a la vegada-->
+            <label for="formDropdown">Home</label><br>
+            <input id="formDropdown" type="radio" name="Genera">
+            <label for="formDropdown">Dona</label><br>
+            <input id="formDropdown" type="radio" name="Genera">
+            <label for="formDropdown">Altre</label><br>
+        </div><br>
+        <p id="titols">Marca els teus equips de preferència</p>
+        <div>
+            <input id="formCheck" type="checkbox"> <!--Crea una checkbox que pot ser seleccionat-->
+            <label for="formCheck">Els Llamps</label><br>
+            <input id="formCheck" type="checkbox">
+            <label for="formCheck">Els Llops</label><br>
+            <input id="formCheck" type="checkbox">
+            <label for="formCheck">Les Orques</label><br>
+            <input id="formCheck" type="checkbox">
+            <label for="formCheck">Els Titans</label><br>
+        </div>
+        <p>Explica'ns perquè vols inscriure't al nostre campament!</p>
+        <div>
+            <textarea required>Vull insriure'm perquè ... </textarea>
+            <!--Crea una entarad de text llarga, el text dintre de textare sera el text que es visualitzara abans de començar a escriure-->
+        </div><br>
+        <div><br>
+
+            <input type="submit" class="formSubmit" value="Enviar"> <!--Crea un boto per enviar el formulari-->
+        </div>
+    </form>
+</body>
+
+</html>

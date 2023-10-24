@@ -1,0 +1,62 @@
+/* exercici fet per Aitor Montejo i Andrés González */
+
+h1 {
+    color: black;
+    /* col·loca de color negre el text del títol */
+}
+
+#titols {
+
+    color: black;
+    /* col·loca de color negre els paràgrafs amb el id "titols" */
+    font-weight: bold;
+    /* col·loca en negreta els paràgraf amb el id "titols" */
+}
+
+body {
+    background-color: rgb(127, 248, 127);
+    /* col·loca el fondo de la pàgina del color asignado */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* canvia la font del "body" */
+}
+
+.formulariEmail,
+.formulariNom {
+    width: 300px;
+    /* canvia l'amplada de l'entrada de text curt i d'email definides amb la class formulariEmail per l'email i la class formulariNom per l'entrada de text curt */
+}
+
+.formulariEmail:focus,
+/* el focus representa un element que ha rebut el focus. Aquest s'activa quan l'usuari fa clic, toca un element o el selecciona amb la tecla Tab del teclat */
+.formulariNom:focus,
+#formNumber:focus {
+    background-color: rgb(160, 247, 246);
+}
+
+#formNumber {
+    width: 100px;
+    /* canvia l'amplada de l'entrada numèrica amb l'id formNumber */
+}
+
+.formSubmit,
+.formTorna {
+    height: 50px;
+    /* cambia la llargada dels dos botons dels diferents arxius html */
+    width: 100px;
+    background-color: rgba(20, 200, 255, 0.641);
+    font-weight: bold;
+}
+
+.formSubmit:hover,
+/* el hover fa que quan l'usuari posi el seu ratolí per sobre de l'element, aquest interactuï amb el dispositiu pero sense necesitat d'activar-ho */
+.formTorna:hover {
+    height: 50px;
+    width: 100px;
+    background-color: rgba(12, 99, 125, 0.641);
+    font-weight: bold;
+}
+
+img {
+    width: 900px;
+    float: right;
+}
