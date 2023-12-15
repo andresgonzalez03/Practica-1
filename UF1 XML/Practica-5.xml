@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sexyñigs>
+    <clients>
+        <client>
+            <nombre>Nacho Simpson</nombre>
+            <compras>
+                <producto ref="L003">
+                    <cantidad>1</cantidad>
+                    <precio>8,90€</precio>
+                </producto>
+            </compras>
+        </client>
+        <client>
+            <nombre>Manuel Garcia</nombre>
+            <compras>
+                <producto ref="L002">
+                    <cantidad>2</cantidad>
+                    <precio>4,90€</precio>
+                </producto>
+                <producto ref="P002">
+                    <cantidad>2</cantidad>
+                    <precio>12€</precio>
+                </producto>
+            </compras>
+        </client>
+        <client>
+            <nombre>Lionel Messi</nombre>
+            <compras>
+                <producto ref="P001">
+                    <cantidad>3</cantidad>
+                    <precio>14€</precio>
+                </producto>
+            </compras>
+        </client>
+    </clients>
+    <productos>
+        <seccion tipo="Lubricante">
+            <producto id="L001">
+                <tipo>Base de acuosa</tipo>
+                <precio>9,90€</precio>
+            </producto>    
+            <producto id="L002">
+                <tipo>Base de silicona</tipo>
+                <precio>4,90€</precio>
+            </producto>    
+            <producto id="L003">
+                <tipo>Base de oleo</tipo>
+                <precio>8,90€</precio>
+            </producto>    
+        </seccion>
+        <seccion tipo="Preservativos">
+            <producto id="P001">
+                <marca>Durex</marca>
+                <precio>14€</precio>
+                <tipo>Extrafino</tipo>
+            </producto>   
+            <producto id="P002">
+                <marca>Durex</marca>
+                <precio>12€</precio>
+                <tipo>Fino</tipo>
+            </producto>   
+            <producto id="P003">
+                <marca>Durex</marca>
+                <precio>10€</precio>
+                <tipo>Normal</tipo>
+            </producto>   
+        </seccion>
+    </productos>
+</sexyñigs>

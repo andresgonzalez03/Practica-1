@@ -1,0 +1,11 @@
+<!ELEMENT gameria (clients, products)>
+<!ELEMENT clients (client)>
+<!ELEMENT client>
+<!ELEMENT products>
+<!ELEMENT cards>
+<!ELEMENT game>
+<!ELEMENT>
+<!ELEMENT>
+<!ELEMENT>
+<!ELEMENT>
+<!ELEMENT>

@@ -1,0 +1,30 @@
+.primerRecuadre {
+    background-color: #90ee90;
+    /* Color inicial */
+    color: #ffffff;
+    width: 15%;
+    /* Ancho del cuadrado en porcentaje */
+    padding: 3vw;
+    /* Tamaño inicial del cuadrado en relación al ancho de la ventana */
+    margin: 1% 1% 0;
+    /* Margen superior e inferior del 2%, y sin margen en la parte inferior */
+    list-style-type: none;
+    /* Eliminar el marcador de lista */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Transiciones suaves */
+    display: inline-block;
+    /* Hacer que los elementos estén en línea */
+    box-sizing: border-box;
+    /* Incluir padding en el tamaño total */
+    text-align: center;
+    font-size: 50px;
+}
+
+
+/* Estilo al pasar el ratón por encima */
+.primerRecuadre:hover {
+    background-color: #673ab7;
+    /* Color al pasar el ratón */
+    transform: scale(1.2);
+    /* Hacer más grande */
+}
