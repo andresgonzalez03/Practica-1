@@ -1,0 +1,34 @@
+a) Explica que s'ha convertit en objectes, i que en arrays i per que has pres aquestes decisions.
+
+He posat tots el element "devices" com una array al igual que els dos eslogans i les etiquetes "device" com a objectes i les etiquetes "price" 
+
+b) Explica què has fet per tal de mantenir junta la informació del preu amb el tipus de moneda pagada.
+   Com has transformat, en aquest cas, les atributs del l'XML a JSON i per què?
+
+He fet que el contingut de la etiqueta "price" estigui tot junt dintre d'un objecte.
+
+c) Hi ha alguna etiqueta en l'XML que no s'ha traduït directament a JSON?
+   Creus que això significa que s'ha perdut informació?
+
+Les uniques etiquetes que no s'han traduït  directament son les etiquetes "device" que permeten que al JSON ocupi menys espai.
+
+d) Com has gestionat els caràcters especials com les cometes dobles en la traducció?
+   Com afecta això la llegibilitat del JSON?
+
+En cas de la traducció dels caràcters especials els he pogut escriure correctament gracies a la utilitzacio de les contrabarres.
+
+e) Explica com has tractat els elements sense informació o amb dades opcionals. 
+   Has optat per deixar el camp buit, per fer servir el valor null o per ometre el camp?
+   Explica quina creus que es la millor decisió i per qué.
+
+Jo en el meu cas he completat aquest casos amb el valor null perque encara que no tenen un valor es necessari deixari constancia dintre del JSON.
+
+f) Quina estructura de dades has utilitzat per respresentar les caracteristiques de "P50 Pocket"?
+   Exlica si hi ha alternatives i per qué has pres aquesta decisió.
+
+He creat una array on he guardat totes les seves caracteristiques.
+
+g) Si el JSON resultant no té el camp "items_count", creus que s'ha perdut informació?
+   Creus que és útil tneir aqusta informació en un camp?
+
+No, perque l'unica informacio que dona es quina cantitat de devices hi ha que aixo ja es el nombre d'objectes que trobem dintre de l'array.

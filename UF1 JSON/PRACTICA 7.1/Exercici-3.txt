@@ -1,0 +1,11 @@
+a) Com has manejat el valor null en el element age de l'Anna en la traduccio a XML? 
+   És aquesta la millor manera de respresentar la falta d'informació? Proposa totes les alternatives posibles.
+
+El que he fet a sigut crear una etiqueta buida en el cas d'aquest element.
+Jo crec que si encara que tambe es podria fer escribint dintre de l'etiqueta "null"
+
+b) Que haurem de tenir en compte quan tenem elements repetits com ara les mascotes o el amics?
+   S'ha mantingut la consistència en la traducció?
+
+Que haurem de crear una etiqueta "friends" o "pets" on posarem dintre d'aquestes els diferents amics i mascotes. 
+No perque d'aquesta forma ha de ocupar més espai.
