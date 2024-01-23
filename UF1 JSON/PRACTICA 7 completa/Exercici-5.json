@@ -1,0 +1,94 @@
+{
+    "pokemons": [
+        {
+            "id": "0001",
+            "nom": "Bulbasur",
+            "tipus": ["planta", "veneno"],
+            "pes": "6.9 kg",
+            "altura": "0.7 m",
+            "estadistiques": {"velocitat": 3, "fortalesa": 3, "precisio": 4, "resistencia": 4, "salto": 3, "total": 17, "mitja": 3.4},
+            "moviments": [
+                {
+                    "nom": "placaje",
+                    "descripccio": "Choca con todas sus fuerzas contra los enemigos frente a sí para infligirles daño",
+                    "potencia": 40,
+                    "contacte": true
+                },
+                {
+                    "nom": "gruñido",
+                    "descripccio": "Emite un suave gruñido que distrae a los enemigos a su alrededor y les hace bajar la guardia",
+                    "potencia": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "latigo cepa",
+                    "descripccio": "Golpea hacia delante con lianas como latigos que infligen daño a los rivales en el área de efecto",
+                    "potencia": 45,
+                    "contacte": true
+                }
+             ],
+             "imatge": "https://www.wikidex.net/wiki/Archivo:Bulbasaur.png",
+             "evolucions": [{"nom": "Ivysaur", "nivell": 16}, {"nom": "Venusaur", "nivell": 32}]
+        },
+        {
+            "id": "0004",
+            "nom": "Charmander",
+            "tipus": "fuego",
+            "pes": "8.5 kg",
+            "altura": "0.6 m",
+            "estadistiques": {"velocitat": 3, "fortalesa": 5, "precisio": 4, "resistencia": 3, "salto": 3, "total": 18, "mitja": 3.6},
+            "moviments": [
+                {
+                    "nom": "arañazo",
+                    "descripccio": "Embiste en la direccion seleccionada, lo que inlige daño a los Pokemons rivales en su trayectoria y reduce temporalmente su velocidad de desplazamiento",
+                    "potencia": 40,
+                    "contacte": true
+                },
+                {
+                    "nom": "gruñido",
+                    "descripccio": "Emite un suave gruñido que distrae a los enemigos a su alrededor y les hace bajar la guardia",
+                    "potencia": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "ascuas",
+                    "descripccio": "Lanza una pequeña llama que causa daño al Pokemon rival y le provoca una quemadura que reduce su Ataque por un tiempo breve",
+                    "potencia": 40,
+                    "contacte": false
+                }
+             ],
+             "imatge": "https://www.wikidex.net/wiki/Archivo:Charmander.png",
+             "evolucions": [{"nom": "Charmeleon", "nivell": 16}, {"nom": "Charizard", "nivell": 36}]
+        },
+        {
+            "id": "0258",
+            "nom": "Mudkip",
+            "tipus": "agua",
+            "pes": "7.6 kg",
+            "altura": "0.4 m",
+            "estadistiques": {"velocitat": 4, "fortalesa": 4, "precisio": 3, "resistencia": 5, "salto": 3, "total": 19, "mitja": 3.8},
+            "moviments": [
+                {
+                    "nom": "placaje",
+                    "descripccio": "Choca con todas sus fuerzas contra los enemigos frente a sí para infligirles daño",
+                    "potencia": 40,
+                    "contacte": true
+                },
+                {
+                    "nom": "gruñido",
+                    "descripccio": "Emite un suave gruñido que distrae a los enemigos a su alrededor y les hace bajar la guardia",
+                    "potencia": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "pistola agua",
+                    "descripccio": "Ataca lanzando un chorro de agua que empuja a los rivales y reduce temporalmente su velocidad de desplazamiento",
+                    "potencia": 40,
+                    "contacte": false
+                }
+             ],
+             "imatge": "https://www.wikidex.net/wiki/Archivo:Mudkip.png",
+             "evolucions": [{"nom": "Marshtomp", "nivell": 16}, {"nom": "Swampert", "nivell": 36}]
+        }
+    ]
+}
