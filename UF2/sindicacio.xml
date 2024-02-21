@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:media="http://search.yahoo.com/mrss/">
+    <id>http://www.bbc.co.uk/mundo/temas/tecnologia/index.xml</id>
+    <title xml:lang="es">BBCMundo.com | Tecnología</title>
+    <updated>2014-09-23T14:23:58+00:00</updated>
+    <link rel="self" href="http://www.bbc.co.uk/mundo/temas/tecnologia/index.xml" />
+    <author>
+        <name>BBC Mundo</name>
+        <email>escribanos@bbc.co.uk</email>
+        <uri>http://www.bbcmundo.com</uri>
+    </author>
+    <generator>http://www.bbcmundo.com</generator>
+    <category xml:lang="es" term="mundo" label="mundo" />
+    <category xml:lang="es" term="tecnologia" label="Tecnología" />
+    <category xml:lang="es" term="topics" label="Temas" />
+    <logo>http://www.bbc.co.uk/mundo/images/gel/rss_logo.gif</logo>
+    <rights xml:lang="es">Derechos Reservados de la British Broadcasting Corporation (Corporación
+        Británica de Radiodifusión) 2014</rights>
+    <entry>
+        <id>tag:www.bbcmundo.com,2014-09-23:34890996</id>
+        <dc:identifier>34890996</dc:identifier>
+        <updated>2014-09-23T14:22:41+00:00</updated>
+        <published>2014-09-23T10:36:00+00:00</published>
+        <category xml:lang="es" term="mundo" label="mundo" />
+        <category xml:lang="es" term="news" label="Noticias" />
+        <rights>not restricted</rights>
+        <title xml:lang="es">¿Cómo evitar las trampas de los hackers en eBay?</title>
+        <summary xml:lang="es">Desde hace meses los cibercriminales "secuestran" cuentas de usuarios
+            inocentes para hacer páginas de productos falsas y robar datos personales. BBC Mundo le
+            cuenta qué medidas se pueden tomar contra este fraude.</summary>
+        <dc:subject>tecnología, eBay, seguridad, privacidad, usuarios, datos, personales, problemas,
+            hackeos, cuentas, hackeadas, fraude, timo</dc:subject>
+        <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/mundo/noticias/2014/09/140923_tecnologia_ebay_seguridad_problemas_ig.shtml">
+            <media:content>
+                <media:thumbnail
+                    url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/23/140923005216_ebay_144x81_getty_nocredit.jpg"
+                    width="106" height="60">
+                    <img alt="" width="106" height="60"
+                        src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/23/140923005216_ebay_144x81_getty_nocredit.jpg" />
+                </media:thumbnail>
+                <media:thumbnail
+                    url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/23/140923005216_ebay_144x81_getty_nocredit.jpg"
+                    width="144" height="81">
+                    <img alt="Logo de eBay" width="144" height="81"
+                        src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/23/140923005216_ebay_144x81_getty_nocredit.jpg" />
+                </media:thumbnail>
+            </media:content>
+        </link>
+    </entry>
+</feed>

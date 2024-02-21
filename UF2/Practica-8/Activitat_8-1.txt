@@ -1,0 +1,114 @@
+EXERCICI 1 I 2
+
+1- /llenguatges/llenguatge/nom
+--> selecciona totes les etiquetes nom dintre de llenguatge. Sortiria d'aquesta manera: <nom>Kotlin</nom> i els altres iguals però canviant els valors de nom.
+
+2- /llenguatges/llenguatge/nom/node()
+--> Kotlin, C++, Java, Python, JavaScript
+
+3- /llenguatges/llenguatge/paradigmes[@tipat]
+--> selecciona les etiquetes paradigmes i el seu contingut amb atribut tipat. Tant el tipat = true, com = false
+
+4- /llenguatges/llenguatge/paradigmes[@tipat=”false”]
+--> donaria error perquè el valor de l'atribut tipat que és false, està escrit amb cometes dobles no rectes, i han de ser rectes. 
+    /llenguatges/llenguatge/paradigmes[@tipat="false"] o sinó /llenguatges/llenguatge/paradigmes[@tipat="\"false"\"]
+
+5- nom
+--> selecciona les etiquetes nom que no es troben dins de llenguatge    
+
+6- /nom
+--> donaria error perque no especifica la seva ascendencia, i nom en cap cas es l'arrel del xml
+
+7- /nom/
+--> donaria error perque no especifica la seva ascendencia, i nom en cap cas es l'arrel del xml
+
+8- //nom
+--> seleccionaria totes les etiquetes nom i donaria igual on es trobi
+
+9- //nom/node()
+--> Kotlin, C++, Java, Python, JavaScript, Això no és un llenguatge de programació :(
+
+10- //llenguatge/nom
+--> selecciona totes les etiquetes nom que es troben dintre de qualsevol etiqueta llenguatge. Mateix cas que el primer.
+
+11- //llenguatge/nom/node()
+--> Kotlin, C++, Java, Python, JavaScript. El mateix que el segon.
+
+12- //nom/node() | //popularitat/node()
+--> Kotlin, C++, Java, Python, JavaScript, Això no és un llenguatge de programació :( | Creixent, Alta, Alta, Molt Alta, Alta
+
+13- //mode_execucio/*
+--> selecciona tots els elements dintre dels mode_execucio
+
+14- //llenguatge[2]
+--> selecciona la segona etiqueta llenguatge. 
+
+15- //llenguatge[last()-1]
+--> selecciona el penúltim element de llenguatge. (Python)
+
+16- //llenguatge[@fundacio]
+--> selecciona les etiquetes llenguatge amb etiquetes fundacio
+
+17- //@fundacio
+--> selecciona tots els atributs fundacio
+
+18- //@fundacio[.>2000]
+--> selecciona tots els atributs fundacio que continguin un valor major que 2000
+
+19- //@fundacio[.>2000]/nom
+--> donaria error perque en aquest cas no hi existeix etiquetes nom dintre del atributs fundacio
+
+20- //@fundacio[.>2000]/../nom
+--> selecciona les etiquetes nom que es troben dintre de etiquetes amb atribut fundacio mes gran que 2000
+
+21- //llenguatge[mode_execucio='Java Virtual Machine']/nom/text()
+--> Kotlin, Java
+
+22- //llenguatge[nom='Kotlin']/popularitat/node()
+--> retorna la paraula creixent
+
+23- //mode_execucio[.='Interpretat']/..
+--> selecciona les etiquetes llenguatge que continguin etiquetes mode_execucio amb valor Interpretat
+
+24- //paradigmes[node()='Imperatiu']/../nom
+--> ens retorna els noms Kotlin, C++, Python
+
+25- //*
+--> selecciona tots els elements del document, però no mostra la línia de tancament de l'arrel <llenguatges>.
+
+
+EXERCICI 3
+
+1. 
+//objectiu/titol/node()
+
+2. 
+//objectiu[titol="Igualtat de Gènere"]/descripcio/node()
+
+3. 
+//objectiu[titol="Fi de la Pobresa"]/accions/accio/node()
+
+4.
+//objectiu[@ods <= 16 and @ods >= 13]/titol/node()
+
+5.
+//objectiu[@ods="10"]/titol/node() | //objectiu[@ods="10"]/descripcio/node()
+
+6.
+//grup[@tipus="economic"]//accions//accio
+
+7. 
+//grup[@tipus="ambiental"]/objectiu[5]/titol/node()
+
+8.
+//grup[@tipus="social"]/objectiu[7]/accions/accio[last()] 
+
+9. 
+//accions[accio="Promoure l ús d energies renovables"]/../../@tipus
+
+
+10.
+//start/../../../../../grup/objectiu/descripcio/end
+
+11. 
+//grup[@tipus="ambiental"]/objectiu/accions/accio[position()<6 and position() >0]

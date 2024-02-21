@@ -1,0 +1,29 @@
+
+<!ELEMENT feed (id, title, updated, link, author, generator, category+, logo, rights, entry)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT updated (#PCDATA)>
+<!ELEMENT link EMPTY>
+<!ATTLIST link rel CDATA #REQUIRED>
+<!ATTLIST link href CDATA #REQUIRED>
+<!ELEMENT author (name, email, uri)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT uri (#PCDATA)>
+<!ELEMENT generator (#PCDATA)>
+<!ELEMENT category EMPTY>
+<!ATTLIST category xml:lang CDATA #REQUIRED>
+<!ATTLIST category term CDATA #REQUIRED>
+<!ATTLIST category label CDATA #REQUIRED>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT rights (#PCDATA)>
+<!ELEMENT entry (id, dc:identifier, updated, published, category+, rights, title, summary, dc:subject, link, media:content)>
+<!ELEMENT dc:identifier (#PCDATA)>
+<!ELEMENT published (#PCDATA)>
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT dc:subject (#PCDATA)>
+<!ELEMENT media:content (media:thumbnail+)>
+<!ELEMENT media:thumbnail EMPTY>
+<!ATTLIST media:thumbnail url CDATA #REQUIRED>
+<!ATTLIST media:thumbnail width CDATA #REQUIRED>
+<!ATTLIST media:thumbnail height CDATA #REQUIRED> 
